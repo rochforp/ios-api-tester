@@ -43,15 +43,29 @@
                                     <action selector="playVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XaZ-X6-TMM"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oXg-xi-ugX">
+                                <rect key="frame" x="151.5" y="559" width="72" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNC-aI-Pzz">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <state key="normal" title="Play Audio"/>
+                                        <connections>
+                                            <action selector="playAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zxN-ih-CYl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ZST-u6-YTD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0WP-yD-L3u"/>
                             <constraint firstItem="3tT-ck-8YF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ma-pS-J5R"/>
                             <constraint firstItem="ZST-u6-YTD" firstAttribute="top" secondItem="3tT-ck-8YF" secondAttribute="bottom" constant="104" id="2l6-j7-203"/>
+                            <constraint firstItem="oXg-xi-ugX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8jv-9V-U3W"/>
                             <constraint firstItem="3tT-ck-8YF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Av9-QV-EOR"/>
                             <constraint firstItem="9vg-oD-AMq" firstAttribute="centerX" secondItem="3tT-ck-8YF" secondAttribute="centerX" id="Hip-O1-IOo"/>
                             <constraint firstItem="3tT-ck-8YF" firstAttribute="top" secondItem="9vg-oD-AMq" secondAttribute="bottom" constant="73" id="Ohy-ha-s6f"/>
+                            <constraint firstItem="oXg-xi-ugX" firstAttribute="top" secondItem="ZST-u6-YTD" secondAttribute="bottom" constant="45" id="RME-Tp-nFI"/>
                             <constraint firstItem="3tT-ck-8YF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="opY-nA-EFR"/>
                         </constraints>
                     </view>

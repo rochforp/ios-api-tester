@@ -24,6 +24,9 @@ class ViewController: UIViewController, PHYEddystoneManagerDelegate, CLLocationM
     
     let synthesizer = AVSpeechSynthesizer()
     
+    var audioPlayer:AVAudioPlayer!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +48,7 @@ class ViewController: UIViewController, PHYEddystoneManagerDelegate, CLLocationM
         // Dispose of any resources that can be recreated.
     }
     
+    //this logs the user location after they have granted permission to the console
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
             print("Current location: \(location)")
@@ -54,6 +58,36 @@ class ViewController: UIViewController, PHYEddystoneManagerDelegate, CLLocationM
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error finding location: \(error.localizedDescription)")
+    }
+    
+    @IBAction func playAudio(_ sender: UIButton) {
+        //check to see if we have been here before and already created the player and if so, stop the player
+        if audioPlayer != nil{
+            //if we have created the player, is it playing?
+            if audioPlayer.isPlaying == true{
+                //if so, stop it
+                audioPlayer.stop()
+                return
+            }
+        }
+        let audioFilePath = Bundle.main.path(forResource: "WestminsterWalk", ofType: "mp3")
+        
+        if audioFilePath != nil{
+                let audioFileUrl = NSURL.fileURL(withPath: audioFilePath!)
+                audioPlayer = try! AVAudioPlayer(contentsOf: audioFileUrl)
+                    if audioPlayer.isPlaying == true{
+                        
+                        print(audioPlayer.isPlaying)
+
+                        }
+                    else if audioPlayer.isPlaying == false{
+                        audioPlayer.play()
+                        //print(audioPlayer.isPlaying)
+                        }
+        }
+        else{
+            print("couldn't load audio player")
+        }
     }
     
     @IBAction func playVideo(_ sender: Any) {

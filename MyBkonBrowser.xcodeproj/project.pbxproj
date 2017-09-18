@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33946D081F43806800648CFB /* PhySdk in Frameworks */ = {isa = PBXBuildFile; fileRef = 33946D071F43806800648CFB /* PhySdk */; };
+		331A802D1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
+		331A802E1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
+		331A802F1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
 		33AF89AC1F61FA50005844C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AF89AB1F61FA50005844C2 /* CoreLocation.framework */; };
 		33F40A9C1F140B1100A2422D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40A9B1F140B1100A2422D /* AppDelegate.swift */; };
 		33F40A9E1F140B1100A2422D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40A9D1F140B1100A2422D /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		33F40AA61F140B1100A2422D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F40AA41F140B1100A2422D /* LaunchScreen.storyboard */; };
 		33F40AB11F140B1100A2422D /* MyBkonBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40AB01F140B1100A2422D /* MyBkonBrowserTests.swift */; };
 		33F40ABC1F140B1100A2422D /* MyBkonBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40ABB1F140B1100A2422D /* MyBkonBrowserUITests.swift */; };
+		33FD5F9B1F702485003FFAD1 /* WestminsterWalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33FD5F9A1F702485003FFAD1 /* WestminsterWalk.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33946D071F43806800648CFB /* PhySdk */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = PhySdk; path = PhySdk.framework/PhySdk; sourceTree = "<group>"; };
+		331A802C1F6987EB00BA6735 /* PhySdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhySdk.framework; sourceTree = "<group>"; };
 		33AF89AB1F61FA50005844C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		33F40A981F140B1100A2422D /* MyBkonBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBkonBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F40A9B1F140B1100A2422D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		33F40ABB1F140B1100A2422D /* MyBkonBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBkonBrowserUITests.swift; sourceTree = "<group>"; };
 		33F40ABD1F140B1100A2422D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F40ACB1F140EE000A2422D /* PhySdk-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhySdk-bridge.h"; sourceTree = "<group>"; };
+		33FD5F9A1F702485003FFAD1 /* WestminsterWalk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = WestminsterWalk.mp3; path = ../WestminsterWalk.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AF89AC1F61FA50005844C2 /* CoreLocation.framework in Frameworks */,
-				33946D081F43806800648CFB /* PhySdk in Frameworks */,
+				331A802D1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331A802E1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331A802F1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +90,7 @@
 		33AF89AA1F61FA50005844C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				331A802C1F6987EB00BA6735 /* PhySdk.framework */,
 				33AF89AB1F61FA50005844C2 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
@@ -96,7 +103,6 @@
 				33F40AAF1F140B1100A2422D /* MyBkonBrowserTests */,
 				33F40ABA1F140B1100A2422D /* MyBkonBrowserUITests */,
 				33F40A991F140B1100A2422D /* Products */,
-				33946D071F43806800648CFB /* PhySdk */,
 				33AF89AA1F61FA50005844C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 		33F40A9A1F140B1100A2422D /* MyBkonBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				33FD5F9A1F702485003FFAD1 /* WestminsterWalk.mp3 */,
 				33F40A9B1F140B1100A2422D /* AppDelegate.swift */,
 				33F40A9D1F140B1100A2422D /* ViewController.swift */,
 				33F40A9F1F140B1100A2422D /* Main.storyboard */,
@@ -252,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F40AA61F140B1100A2422D /* LaunchScreen.storyboard in Resources */,
+				33FD5F9B1F702485003FFAD1 /* WestminsterWalk.mp3 in Resources */,
 				33F40AA31F140B1100A2422D /* Assets.xcassets in Resources */,
 				33F40AA11F140B1100A2422D /* Main.storyboard in Resources */,
 			);
@@ -478,6 +486,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyBkonBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bkon.MyBkonBrowserTests;
@@ -492,6 +504,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyBkonBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bkon.MyBkonBrowserTests;
@@ -506,6 +522,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyBkonBrowserUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bkon.MyBkonBrowserUITests;
@@ -520,6 +540,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyBkonBrowserUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bkon.MyBkonBrowserUITests;
