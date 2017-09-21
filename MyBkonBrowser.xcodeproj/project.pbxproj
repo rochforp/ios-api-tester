@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		331A802D1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
-		331A802E1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
-		331A802F1F6987EB00BA6735 /* PhySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331A802C1F6987EB00BA6735 /* PhySdk.framework */; };
 		33AF89AC1F61FA50005844C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AF89AB1F61FA50005844C2 /* CoreLocation.framework */; };
 		33F40A9C1F140B1100A2422D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40A9B1F140B1100A2422D /* AppDelegate.swift */; };
 		33F40A9E1F140B1100A2422D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F40A9D1F140B1100A2422D /* ViewController.swift */; };
@@ -39,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		331A802C1F6987EB00BA6735 /* PhySdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhySdk.framework; sourceTree = "<group>"; };
 		33AF89AB1F61FA50005844C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		33F40A981F140B1100A2422D /* MyBkonBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBkonBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F40A9B1F140B1100A2422D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AF89AC1F61FA50005844C2 /* CoreLocation.framework in Frameworks */,
-				331A802D1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331A802E1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331A802F1F6987EB00BA6735 /* PhySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +83,6 @@
 		33AF89AA1F61FA50005844C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				331A802C1F6987EB00BA6735 /* PhySdk.framework */,
 				33AF89AB1F61FA50005844C2 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
